@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<!--[if IE 6]>
+<html id="ie6" lang="en-US">
+<![endif]-->
+<!--[if IE 7]>
+<html id="ie7" lang="en-US">
+<![endif]-->
+<!--[if IE 8]>
+<html id="ie8" lang="en-US">
+<![endif]-->
+<!--[if !(IE 6) | !(IE 7) | !(IE 8)  ]><!-->
+<html lang="en-US">
+<!--<![endif]-->
+<head>
+	<meta charset="UTF-8" />
+	<title>About | J Knisely Landscaping</title>
+			
+	
+	<link rel="pingback" href="xmlrpc.php" />
+
+		<!--[if lt IE 9]>
+	<script src="http://jkniselylandscaping.com/wp-content/themes/Divi/js/html5.js" type="text/javascript"></script>
+	<![endif]-->
+
+	<script type="text/javascript">
+		document.documentElement.className = 'js';
+	</script>
+
+	<meta name='robots' content='noindex,follow' />
+<link rel="alternate" type="application/rss+xml" title="J Knisely Landscaping &raquo; Feed" href="feed/index.html" />
+<link rel="alternate" type="application/rss+xml" title="J Knisely Landscaping &raquo; Comments Feed" href="comments/feed/index.html" />
+<link rel="alternate" type="application/rss+xml" title="J Knisely Landscaping &raquo; About Comments Feed" href="about/feed/index.html" />
+<meta content="Divi v.2.1.2" name="generator"/><link rel='stylesheet' id='divi-fonts-css'  href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,800italic,400,300,700,800&#038;subset=latin,latin-ext' type='text/css' media='all' />
+<link rel='stylesheet' id='divi-style-css'  href='wp-content/themes/Divi/style.css?ver=2.1.2' type='text/css' media='all' />
+<link rel='stylesheet' id='et-shortcodes-css-css'  href='wp-content/themes/Divi/epanel/shortcodes/css/shortcodes.css?ver=3.0' type='text/css' media='all' />
+<link rel='stylesheet' id='et-shortcodes-responsive-css-css'  href='wp-content/themes/Divi/epanel/shortcodes/css/shortcodes_responsive.css?ver=3.0' type='text/css' media='all' />
+<script type='text/javascript' src='wp-includes/js/jquery/jquery.js?ver=1.11.1'></script>
+<script type='text/javascript' src='wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="wp-includes/wlwmanifest.xml" /> 
+<link rel='canonical' href='index.html?p=41' />
+<link rel='shortlink' href='index.html?p=41' />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />	<style>
+		a { color: #31562b; }
+
+		body { color: #666666; }
+
+		.et_pb_counter_amount, .et_pb_featured_table .et_pb_pricing_heading, .et_quote_content, .et_link_content, .et_audio_content { background-color: #31562b; }
+
+		#main-header, #main-header .nav li ul, .et-search-form, #main-header .et_mobile_menu { background-color: #ffffff; }
+
+		#top-header, #et-secondary-nav li ul { background-color: #42892a; }
+
+		.woocommerce a.button.alt, .woocommerce-page a.button.alt, .woocommerce button.button.alt, .woocommerce-page button.button.alt, .woocommerce input.button.alt, .woocommerce-page input.button.alt, .woocommerce #respond input#submit.alt, .woocommerce-page #respond input#submit.alt, .woocommerce #content input.button.alt, .woocommerce-page #content input.button.alt, .woocommerce a.button, .woocommerce-page a.button, .woocommerce button.button, .woocommerce-page button.button, .woocommerce input.button, .woocommerce-page input.button, .woocommerce #respond input#submit, .woocommerce-page #respond input#submit, .woocommerce #content input.button, .woocommerce-page #content input.button, .woocommerce-message, .woocommerce-error, .woocommerce-info { background: #31562b !important; }
+
+		#et_search_icon:hover, .mobile_menu_bar:before, .footer-widget h4, .et-social-icon a:hover, .comment-reply-link, .form-submit input, .et_pb_sum, .et_pb_pricing li a, .et_pb_pricing_table_button, .et_overlay:before, .entry-summary p.price ins, .woocommerce div.product span.price, .woocommerce-page div.product span.price, .woocommerce #content div.product span.price, .woocommerce-page #content div.product span.price, .woocommerce div.product p.price, .woocommerce-page div.product p.price, .woocommerce #content div.product p.price, .woocommerce-page #content div.product p.price, .et_pb_member_social_links a:hover { color: #31562b !important; }
+
+		.woocommerce .star-rating span:before, .woocommerce-page .star-rating span:before, .et_pb_widget li a:hover, .et_pb_bg_layout_light .et_pb_promo_button, .et_pb_bg_layout_light .et_pb_more_button, .et_pb_filterable_portfolio .et_pb_portfolio_filters li a.active, .et_pb_filterable_portfolio .et_pb_portofolio_pagination ul li a.active, .et_pb_gallery .et_pb_gallery_pagination ul li a.active, .wp-pagenavi span.current, .wp-pagenavi a:hover, .et_pb_contact_submit, .et_pb_bg_layout_light .et_pb_newsletter_button, .nav-single a, .posted_in a { color: #31562b !important; }
+
+		.et-search-form, .nav li ul, .et_mobile_menu, .footer-widget li:before, .et_pb_pricing li:before, blockquote { border-color: #31562b; }
+
+		#main-footer { background-color: #222222; }
+
+		#top-menu a { color: #42892a; }
+
+		#top-menu li.current-menu-ancestor > a, #top-menu li.current-menu-item > a, .bottom-nav li.current-menu-item > a { color: #2EA3F2; }
+
+		</style>
+	<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+<style type="text/css" id="et-custom-css">
+.green {
+background:green;
+}
+</style></head>
+<body class="page page-id-41 page-template-default et_fixed_nav linux et_pb_pagebuilder_layout et_full_width_page unknown et_includes_sidebar">
+	<div id="page-container">
+
+	
+		<header id="main-header" class="et_nav_text_color_dark">
+			<div class="container clearfix">
+							<a href="index.html">
+					<img src="wp-content/uploads/2014/09/logo-header1.png" alt="J Knisely Landscaping" id="logo" />
+				</a>
+
+				<div id="et-top-navigation">
+					<nav id="top-menu-nav">
+					<ul id="top-menu" class="nav"><li id="menu-item-50" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-50"><a href="index.html">Home</a></li>
+<li id="menu-item-49" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-41 current_page_item menu-item-49"><a href="index.html?p=41">About</a></li>
+<li id="menu-item-48" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-48"><a href="index.html?p=42">Services</a></li>
+<li id="menu-item-47" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-47"><a href="index.html?p=44">Contact</a></li>
+</ul>					</nav>
+
+					
+			<!--							<div id="et_top_search">
+						<span id="et_search_icon"></span>
+						<form role="search" method="get" class="et-search-form et-hidden" action="http://jkniselylandscaping.com/">
+						<input type="search" class="et-search-field" placeholder="Search &hellip;" value="" name="s" title="Search for:" />                          -->
+						</form>
+					</div>
+					
+					<div id="et_mobile_nav_menu">
+			<a href="index.html?p=41#" class="mobile_nav closed">
+				<span class="select_page">Select Page</span>
+				<span class="mobile_menu_bar"></span>
+			</a>
+		</div>				</div> <!-- #et-top-navigation -->
+			</div> <!-- .container -->
+		</header> <!-- #main-header -->
+
+		<div id="et-main-area">
+<div id="main-content">
+
+
+			
+				<article id="post-41" class="post-41 page type-page status-publish hentry">
+
+				
+					<div class="entry-content">
+					<div class="et_pb_section et_section_regular">
+			
+			
+				
+				<div class="et_pb_row">
+			<div class="et_pb_column et_pb_column_1_4">
+			<img src="wp-content/uploads/2014/09/logo-web-aside.png" alt="" class="et-waypoint et_pb_image et_pb_animation_left" />
+		</div> <!-- .et_pb_column --><div class="et_pb_column et_pb_column_3_4">
+			<div class="et_pb_text et_pb_bg_layout_light et_pb_text_align_left">
+			
+<h1 style="text-align: center;">Learn About Our Company</h1>
+
+		</div> <!-- .et_pb_text --><div class="et_pb_text et_pb_bg_layout_light et_pb_text_align_left">
+			
+<p>J. Knisely Landscaping offers a wide variety of landscape construction services from new lawn construction and tree and shrub plantings to stone walls and patio installation. Call today to set up a free consultation and let our team design and build a project that will not only meet your expectations, but exceed them!</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+		</div> <!-- .et_pb_text --><div class="et_pb_text et_pb_bg_layout_light et_pb_text_align_left">
+			
+<h3 style="text-align: center;">About the Founder</h3>
+<p>Jack Knisely (owner of J. Knisely Landscaping) has been working in the construction industry since an early age. In high school, he worked construction for his father and spent most of the summer months working on a Tuna/Charter Fishing Boat out of Gloucester, MA. Most of Jacks free time is still spent fishing whether it’s in a pond or the ocean. He started J. Knisely Landscaping in the Spring of 2009. Jack holds a degree in horticulture from the Essex Agricultural Institute.</p>
+
+		</div> <!-- .et_pb_text -->
+		</div> <!-- .et_pb_column -->
+		</div> <!-- .et_pb_row -->
+			
+		</div> <!-- .et_pb_section --><div class="et_pb_section et_pb_fullwidth_section et_section_regular" style='background-color:#ffffff;background-image:url(wp-content/uploads/2014/09/Landscaping-Mowing-III.jpg);'>
+			
+			
+				
+				<div class="et_pb_slider et_pb_slider_no_arrows et_pb_slider_no_pagination">
+			<div class="et_pb_slides">
+				<div class="et_pb_slide et_pb_bg_layout_dark et_pb_media_alignment_center" style='background-color:#ffffff;background-image:url(wp-content/uploads/2014/09/Landscaping-Mowing-III.jpg);'>
+			
+			<div class="et_pb_container clearfix">
+				
+				<div class="et_pb_slide_description">
+					<h2>Contact Us Today</h2>
+					<div class="et_pb_slide_content"></div>
+					
+				</div> <!-- .et_pb_slide_description -->
+			</div> <!-- .et_pb_container -->
+			
+		</div> <!-- .et_pb_slide -->
+		
+			</div> <!-- .et_pb_slides -->
+		</div> <!-- .et_pb_slider -->
+		
+			
+		</div> <!-- .et_pb_section -->
+					</div> <!-- .entry-content -->
+
+				
+				</article> <!-- .et_pb_post -->
+
+			
+
+</div> <!-- #main-content -->
+
+
+			<footer id="main-footer">
+				
+
+		
+				<div id="et-footer-nav">
+					<div class="container">
+						<ul id="menu-main-navigation" class="bottom-nav"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-50"><a href="index.html">Home</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-41 current_page_item menu-item-49"><a href="index.html?p=41">About</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-48"><a href="index.html?p=42">Services</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-47"><a href="index.html?p=44">Contact</a></li>
+</ul>					</div>
+				</div> <!-- #et-footer-nav -->
+
+			
+				<div id="footer-bottom">
+					<div class="container clearfix">
+				<ul class="et-social-icons">
+
+	<li class="et-social-icon et-social-facebook">
+		<a href="https://www.facebook.com/pages/JKnisely-Landscaping/636023759764195?rf=510538225700308" class="icon">
+			<span>Facebook</span>
+		</a>
+	</li>
+	<li class="et-social-icon et-social-twitter">
+		<a href="index.html?p=41#" class="icon">
+			<span>Twitter</span>
+		</a>
+	</li>
+
+</ul>
+						<p id="footer-info">Designed by Ibis.is</p>
+					</div>	<!-- .container -->
+				</div>
+			</footer> <!-- #main-footer -->
+		</div> <!-- #et-main-area -->
+
+
+	</div> <!-- #page-container -->
+
+	<script type='text/javascript' src='wp-includes/js/comment-reply.min.js?ver=4.1.1'></script>
+<script type='text/javascript' src='wp-content/themes/Divi/js/jquery.fitvids.js?ver=2.1.2'></script>
+<script type='text/javascript' src='wp-content/themes/Divi/js/waypoints.min.js?ver=2.1.2'></script>
+<script type='text/javascript' src='wp-content/themes/Divi/js/jquery.magnific-popup.js?ver=2.1.2'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var et_custom = {"ajaxurl":"http:\/\/jkniselylandscaping.com\/wp-admin\/admin-ajax.php","images_uri":"http:\/\/jkniselylandscaping.com\/wp-content\/themes\/Divi\/images","et_load_nonce":"7c97683030","subscription_failed":"Please, check the fields below to make sure you entered the correct information.","fill":"Fill","field":"field","invalid":"Invalid email","captcha":"Captcha","prev":"Prev","next":"Next"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='wp-content/themes/Divi/js/custom.js?ver=2.1.2'></script>
+</body>
+</html>
