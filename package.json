@@ -1,0 +1,17 @@
+{
+  "name": "jkniselylandscaping.com",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib",
+  "dependencies": {
+    "argparse": "^1.0.9",
+    "coffee-script": "^1.12.5",
+    "marko": "^4.2.8"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sean Lang <slang800@gmail.com>",
+  "license": "GPL-3.0"
+}
