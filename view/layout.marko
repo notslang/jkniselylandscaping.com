@@ -1,0 +1,94 @@
+<!doctype html>
+html
+  head
+    meta charset="utf-8"
+    meta name="viewport" content="width=device-width, maximum-scale=1.0"
+    meta name="author" content="Sean Lang"
+    meta name="description" content=input.description
+
+    title -- ${input.title} | J Knisely Landscaping
+
+    <!--[if lt IE 9]>
+    <script src="http://jkniselylandscaping.com/wp-content/themes/Divi/js/html5.js" type="text/javascript"></script>
+    <![endif]-->
+
+    link rel="canonical" href="https://jkniselylandscaping.com${input.url}"
+    meta property="og:locale" content="en_US"
+    meta property="og:title" content=input.title
+    meta property="og:description" content=input.description
+    meta property="og:site_name" content="J Knisely Landscaping"
+
+    link type="text/css" media="all" rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,800italic,400,300,700,800&#038;subset=latin,latin-ext"
+    link type="text/css" media="all" rel="stylesheet" href="/wp-content/themes/Divi/style.css"
+    link type="text/css" media="all" rel="stylesheet" href="/wp-content/themes/Divi/epanel/shortcodes/css/shortcodes.css"
+    link type="text/css" media="all" rel="stylesheet"  href="/wp-content/themes/Divi/epanel/shortcodes/css/shortcodes_responsive.css"
+
+  body.page-template-default.et_fixed_nav.et_pb_pagebuilder_layout.et_right_sidebar.et_includes_sidebar
+    div#page-container
+      header#main-header.et_nav_text_color_dark
+        div.container.clearfix
+          a href="/"
+            img#logo src="/wp-content/uploads/2014/09/logo-header1.png" alt="J Knisely Landscaping"
+          div#et-top-navigation
+            nav#top-menu-nav
+              ul#top-menu.nav
+                for(page in input.pageList)
+                  if(input.url == page.url)
+                    li.menu-item.menu-item-type-post_type.menu-item-object-page.current-menu-item.page_item.current_page_item
+                      a href=page.url -- ${page.title}
+                  else
+                    li.menu-item.menu-item-type-post_type.menu-item-object-page
+                      a href=page.url -- ${page.title}
+            div#et_mobile_nav_menu
+              a.mobile_nav.closed href="#"
+                span.select_page -- Select Page
+                span.mobile_menu_bar
+
+      div#et-main-area
+        div#main-content
+          article.page.type-page.status-publish.hentry
+            div.entry-content
+              //div.et_pb_section.et_section_regular
+              include(input.body)
+
+        footer#main-footer
+          div#et-footer-nav
+            div.container
+              ul#menu-main-navigation.bottom-nav
+                for(page in input.pageList)
+                  if(input.url == page.url)
+                    li.menu-item.menu-item-type-post_type.menu-item-object-page.current-menu-item.page_item.current_page_item
+                      a href=page.url -- ${page.title}
+                  else
+                    li.menu-item.menu-item-type-post_type.menu-item-object-page
+                      a href=page.url -- ${page.title}
+
+          div#footer-bottom
+            div.container.clearfix
+              ul.et-social-icons
+                li.et-social-icon.et-social-facebook
+                  a.icon href="https://www.facebook.com/pages/JKnisely-Landscaping/636023759764195?rf=510538225700308"
+                    span -- Facebook
+                //li.et-social-icon.et-social-twitter
+                //  a.icon href="#"
+                //    span -- Twitter
+              p#footer-info -- Designed by Ibis.is
+
+    script type="text/javascript" src="/wp-includes/js/jquery/jquery.js"
+    script type="text/javascript" src="/wp-includes/js/jquery/jquery-migrate.min.js"
+    script type="text/javascript" src="/wp-content/themes/Divi/js/waypoints.min.js"
+    script type="text/javascript" src="/wp-content/themes/Divi/js/jquery.magnific-popup.js"
+    script type="text/javascript" --
+      var et_custom = {"ajaxurl":"http:\/\/jkniselylandscaping.com\/wp-admin\/admin-ajax.php","images_uri":"http:\/\/jkniselylandscaping.com\/wp-content\/themes\/Divi\/images","et_load_nonce":"7c97683030","subscription_failed":"Please, check the fields below to make sure you entered the correct information.","fill":"Fill","field":"field","invalid":"Invalid email","captcha":"Captcha","prev":"Prev","next":"Next"};
+
+    script type="text/javascript" src="/wp-content/themes/Divi/js/custom.js"
+
+    script type="text/javascript" --
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', '${input.googleAnalyticsId}']);
+      _gaq.push(['_trackPageview']);
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
