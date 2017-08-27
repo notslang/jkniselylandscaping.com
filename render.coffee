@@ -1,4 +1,5 @@
 {ArgumentParser} = require 'argparse'
+find = require 'lodash.find'
 
 argparser = new ArgumentParser(
   addHelp: true
@@ -46,6 +47,7 @@ render = (obj) ->
   obj.phoneNumber = '978-360-8139'
   obj.description = description
   obj.pageList = require './page-list.json'
+  obj.title = find(obj.pageList, url: pagePath).title
   view.stream(
     obj
   ).pipe(

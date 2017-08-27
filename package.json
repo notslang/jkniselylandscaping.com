@@ -5,6 +5,7 @@
   "dependencies": {
     "argparse": "^1.0.9",
     "coffee-script": "^1.12.5",
+    "lodash.find": "^4.6.0",
     "marko": "^4.2.8"
   },
   "license": "GPL-3.0",
