@@ -2313,7 +2313,6 @@ ul.et_pb_side_nav .side_nav_item a.active { background-color: #fff !important; }
 	.et_vertical_nav .et_pb_column_1_4 .et_pb_filterable_portfolio_grid .et_pb_portfolio_item,
 	.et_vertical_nav .et_pb_column_1_4 .et_pb_filterable_portfolio .column_width { width: 131px; }
 
-	.et_vertical_nav .et_pb_column_4_4 .et_pb_gallery_fullwidth .et_pb_gallery_item { width: 100%; }
 	.et_vertical_nav .et_pb_column_2_3 .et_pb_gallery_fullwidth .et_pb_gallery_item { width: 450px; }
 	.et_vertical_nav .et_pb_column_3_4 .et_pb_gallery_fullwidth .et_pb_gallery_item { width: 514px; }
 	.et_vertical_nav .et_pb_column_3_8 .et_pb_gallery_fullwidth .et_pb_gallery_item { width: 226.5px; }
