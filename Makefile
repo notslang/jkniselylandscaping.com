@@ -53,7 +53,7 @@ public/google%.html:
 
 all: public/index.html $(OUTPUT_HTML_FILES) $(OUTPUT_IMGS) \
      public/googlea996c0920075fa0d.html
-	cp -r assets/wp-* public
+	cp -r assets/wp-* assets/img public
 
 deploy: all
 	# upload images before text files because they take the longest and are referenced by any new HTML pages
