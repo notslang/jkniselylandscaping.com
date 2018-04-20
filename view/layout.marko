@@ -23,6 +23,8 @@ html
     link type="text/css" media="all" rel="stylesheet" href="/wp-content/themes/Divi/epanel/shortcodes/css/shortcodes.css"
     link type="text/css" media="all" rel="stylesheet"  href="/wp-content/themes/Divi/epanel/shortcodes/css/shortcodes_responsive.css"
 
+    link type="text/css" media="all" rel="stylesheet" href="/owlcarousel/owl.carousel.min.css"
+    link type="text/css" media="all" rel="stylesheet" href="/owlcarousel/owl.theme.default.min.css"
   body.page-template-default.et_fixed_nav.et_pb_pagebuilder_layout
     div#page-container
       header#main-header.et_nav_text_color_dark
@@ -81,6 +83,27 @@ html
       var et_custom = {"ajaxurl":"http:\/\/jkniselylandscaping.com\/wp-admin\/admin-ajax.php","images_uri":"http:\/\/jkniselylandscaping.com\/wp-content\/themes\/Divi\/images","et_load_nonce":"7c97683030","subscription_failed":"Please, check the fields below to make sure you entered the correct information.","fill":"Fill","field":"field","invalid":"Invalid email","captcha":"Captcha","prev":"Prev","next":"Next"};
 
     script type="text/javascript" src="/wp-content/themes/Divi/js/custom.js"
+
+    script type="text/javascript" src="/wp-content/themes/Divi/js/owl.carousel.min.js"
+    script type="text/javascript" --
+      jQuery(function($){
+        $('.owl-carousel').owlCarousel({
+            loop:true,
+            margin:10,
+            nav:true,
+            responsive:{
+                0:{
+                    items:1
+                },
+                600:{
+                    items:1
+                },
+                1000:{
+                    items:1
+                }
+            }
+        });
+      });
 
     script type="text/javascript" --
       var _gaq = _gaq || [];
