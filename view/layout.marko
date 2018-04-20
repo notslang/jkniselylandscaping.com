@@ -86,6 +86,27 @@ html
 
     script type="text/javascript" src="/wp-content/themes/Divi/js/custom.js"
 
+    script type="text/javascript" src="/wp-content/themes/Divi/js/owl.carousel.min.js"
+    script type="text/javascript" --
+      jQuery(function($){
+        $('.owl-carousel').owlCarousel({
+            loop:true,
+            margin:10,
+            nav:true,
+            responsive:{
+                0:{
+                    items:1
+                },
+                600:{
+                    items:1
+                },
+                1000:{
+                    items:1
+                }
+            }
+        });
+      });
+
     script type="text/javascript" --
       var _gaq = _gaq || [];
       _gaq.push(['_setAccount', '${input.googleAnalyticsId}']);
