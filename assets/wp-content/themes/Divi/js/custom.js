@@ -422,12 +422,6 @@
 			$this.find('.et_parallax_bg').css( { 'height' : bg_height } );
 		}
 
-		if ( $.fn.fitVids ) {
-			$( '.et_pb_slide_video' ).fitVids();
-
-			$( '#main-content' ).fitVids();
-		}
-
 		et_fix_video_wmode('.fluid-width-video-wrapper');
 
 		function et_fix_video_wmode( video_wrapper ) {
