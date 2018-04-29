@@ -1,0 +1,90 @@
+include('./layout.marko', input)
+  @body
+    div class="et_pb_section et_pb_fullwidth_section et_section_regular"
+      div class="et_pb_slider"
+        div class="et_pb_slides"
+          div class="et_pb_slide et_pb_bg_layout_dark et_pb_media_alignment_center" style='background-color:#ffffff;background-image:url(wp-content/uploads/2014/09/Mowing-Maintenance-header.jpg);'
+            div class="et_pb_container clearfix"
+              div class="et_pb_slide_description"
+                h2 -- Lawn Maintainence
+                div class="et_pb_slide_content"
+                a href="index.html#" class="et_pb_more_button" -- Property Maintenance & Landscape Construction
+
+          div class="et_pb_slide et_pb_bg_layout_dark et_pb_media_alignment_center" style='background-color:#ffffff;background-image:url(wp-content/uploads/2014/09/leaves.jpg);'
+            div class="et_pb_container clearfix"
+              div class="et_pb_slide_description"
+                h2 -- Leaf Care
+                div class="et_pb_slide_content"
+
+          div class="et_pb_slide et_pb_bg_layout_dark et_pb_media_alignment_center" style='background-color:#ffffff;background-image:url(wp-content/uploads/2014/09/Landscaping-Mowing-Action.jpg);'
+            div class="et_pb_container clearfix"
+              div class="et_pb_slide_description"
+                h2 -- Maintenance & Construction
+                div class="et_pb_slide_content"
+
+    div class="et_pb_section et_section_regular" style='background-color:#ffffff;'
+      div class="et_pb_row"
+        div class="et_pb_toggle et_pb_toggle_open"
+          h5 class="et_pb_toggle_title" -- Seasonal Services
+          div class="et_pb_toggle_content clearfix"
+            p style="text-align: center;" -- As winter turns to spring, we are here to help cleanup from the multiple storms. We offer seasonal cleanups,  landscape and property maintenance, to custom patios and walkway construction.<br/>Don't hesitate to get in touch we can be reached at (978) 360-8139.
+
+      div class="et_pb_row"
+        div class="et_pb_column et_pb_column_1_3"
+          a href="/about"
+            img src="wp-content/uploads/2014/09/Landscaping-Mowing-III.jpg" alt="About Us" title="About" class="et-waypoint et_pb_image et_pb_animation_fade_in"
+            div class="et_pb_text et_pb_bg_layout_light et_pb_text_align_left"
+              h2 -- About
+              p style="text-align: left;" -- J Knisely Landscaping is a Full Service Landscape Company Serving the North Shore of Massachusetts.
+              p
+
+        div class="et_pb_column et_pb_column_1_3"
+          a href="/services"
+            img src="/img/bobcat.jpg" alt=" Services" title=" Services" class="et-waypoint et_pb_image et_pb_animation_fade_in"
+          div class="et_pb_text et_pb_bg_layout_light et_pb_text_align_left"
+            h2 style="text-align: left;" -- Services
+            p style="text-align: left;" -- J Knisely Landscaping offers an array of landscape maintenance services.
+
+        div class="et_pb_column et_pb_column_1_3"
+          a href="/contact"
+            img src="/wp-content/uploads/2014/09/Walkway-Installation.jpg" alt="Contact" title="Contact" class="et-waypoint et_pb_image et_pb_animation_fade_in"
+
+          div class="et_pb_text et_pb_bg_layout_light et_pb_text_align_left"
+            h2 -- Contact
+            p style="text-align: left;" -- Call Today for a Free Consultation (978) 360-8139
+
+      div class="et_pb_row"
+        div class="et_pb_toggle et_pb_toggle_open"
+          h5 class="et_pb_toggle_title" -- About Us
+          div class="et_pb_toggle_content clearfix"
+            p -- J. Knisely Landscaping is a full service landscape company serving the Northshore of Massachusetts. We offer a wide variety of services from Property Maintenance to Landscape Construction and Hardscaping. We also offer Snow Plowing in the winter months. Call today to set up a free consultation and let our team design and build a project that will not only meet your expectations but exceed them!
+
+      div class="et_pb_row"
+        div class="et_pb_column et_pb_column_1_2"
+          div class="et_pb_toggle et_pb_toggle_open"
+            h5 class="et_pb_toggle_title" -- Custom Hardscape
+            div class="et_pb_toggle_content clearfix"
+              div class="owl-carousel owl-theme"
+                for(photo in input.slideshow['custom-stonework'])
+                  div class="item"
+                    img src=photo alt=""
+
+        div class="et_pb_column et_pb_column_1_2"
+          div class="et_pb_toggle et_pb_toggle_open"
+            h5 class="et_pb_toggle_title" -- Property Maintenance
+            div class="et_pb_toggle_content clearfix"
+              div class="owl-carousel owl-theme"
+                for(photo in input.slideshow['property-maintenance'])
+                  div class="item"
+                    img src=photo alt=""
+
+    div class="et_pb_section et_pb_fullwidth_section et_section_regular" style='background-color:#ffffff;background-image:url(wp-content/uploads/2014/09/Landscaping-Mowing.jpg);'
+      div class="et_pb_slider et_pb_slider_no_arrows et_pb_slider_no_pagination"
+        div class="et_pb_slides"
+          div class="et_pb_slide et_pb_bg_layout_dark et_pb_media_alignment_center" style='background-color:#ffffff;background-image:url(wp-content/uploads/2014/09/Landscaping-Mowing-header.jpg);'
+            div class="et_pb_container clearfix"
+              div class="et_pb_slide_description"
+                h2
+                  a href="/contact" -- Contact Us Today for Free Estimate
+                div class="et_pb_slide_content"
+                a href="/contact" class="et_pb_more_button" -- J Knisely Landscaping is a Full Service Landscape Company Serving the North Shore of Massachusetts.

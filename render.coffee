@@ -34,20 +34,17 @@ if pagePath isnt '/' then pagePath = pagePath.replace(/\/$/, '')
 view = require "./view/#{argv.viewName}.marko.js"
 console.error argv.viewName, pagePath
 
-prepareHtml = (str) ->
-  obj = {
-    url: pagePath
-    contents: str
-  }
-  console.warn obj
-  return obj
-
-render = (obj) ->
+render = (str) ->
+  obj = {}
+  obj.pageList = require './page-list.json'
+  obj.slideshow = require './slideshow-list.json'
+  obj.title = find(obj.pageList, url: pagePath).title
+  obj.url = pagePath
+  obj.contents = str
   obj.googleAnalyticsId = 'UA-105401279-1'
   obj.phoneNumber = '978-360-8139'
   obj.description = description
-  obj.pageList = require './page-list.json'
-  obj.title = find(obj.pageList, url: pagePath).title
+  console.warn obj
   view.stream(
     obj
   ).pipe(
@@ -60,7 +57,5 @@ process.stdin.on 'readable', ->
   while (chunk = process.stdin.read()) isnt null
     buffer += chunk
   if buffer isnt ''
-    render(
-      prepareHtml(buffer)
-    )
+    render(buffer)
   return
