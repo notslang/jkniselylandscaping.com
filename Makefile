@@ -1,6 +1,6 @@
 .PHONY: all deploy
 
-INPUT_IMGS := $(shell find content/slideshow -type f -name '*.jpg')
+INPUT_IMGS := $(shell find content/slideshow -type f -iname '*.jpg' -o -iname '*.png')
 OUTPUT_IMGS := $(patsubst content/%, public/%, $(INPUT_IMGS))
 INPUT_HTML_FILES := $(shell find content -type f -name '*.html')
 OUTPUT_HTML_FILES := $(patsubst content/%.html, public/%.html, $(INPUT_HTML_FILES))
@@ -45,6 +45,10 @@ tmp/slideshow-list.json: tmp/slideshow-list.js $(INPUT_IMGS) tmp/npm-install-don
 public/slideshow/%.jpg: content/slideshow/%.jpg
 	mkdir -p "$(dir $@)"
 	jpegtran -optimize -progressive < "$<" > "$@"
+
+public/slideshow/%.png: content/slideshow/%.png
+	mkdir -p "$(dir $@)"
+	optipng -o7 "$<" -out "$@"
 
 tmp/npm-install-done: package.json
 	if [ -d node_modules ]; then rm -R node_modules; fi
